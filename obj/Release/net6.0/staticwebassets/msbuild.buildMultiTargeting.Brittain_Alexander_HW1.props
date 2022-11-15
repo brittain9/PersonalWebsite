@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Brittain_Alexander_HW1.props" />
+</Project>

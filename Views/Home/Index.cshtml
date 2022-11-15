@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Welcome to my Home Page</h1>
+
+<h4 class="text-center">I'm Alex Brittain! Glad you're here.</h4>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<img src="~/images/mainpic.PNG" alt="alex" title="alex"
+    width="auto"
+    height="350"
+        />
+
+<br />
+<div class="text-center">
+    <div class="btn-group-lg">
+        <a asp-action="About" class="btn btn-primary">About Me</a>
+        <a asp-action="Resume" class="btn btn-primary">My Resume</a>
+    </div>
+</div>
+<hr class="hr-danger" />
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    table {
+        border-spacing: 75px;
+    }
+</style>
+
+<table >
+  <tr>
+    <td>Favorite Restaurant</td>
+    <td>Uchiko</td>
+    <td>
+            <a href="https://uchikoaustin.com/menu">Menu</a>
+    </td>
+  <tr>
+  <tr>
+    <td>Favorite TV Show    </td>
+    <td>Mad Men    </td>
+        <td>
+            <a href="https://www.imdb.com/title/tt0804503/">imbd</a>
+        </td>
+    <tr>
+        <td>Celebrity Crush</td>
+        <td>Natalie Portman</td>
+        <td>
+            <a href="https://en.wikipedia.org/wiki/Padm%C3%A9_Amidala">Padmé</a>
+        </td>
+    </tr>
+
+  </tr>
+
+<table>
+    <br>
+        <p>My email address is <a href="mailto:alexanderbrittain@utexas.edu?subject=MIS 333K">alexanderbrittain@utexas.edu</a></p>
+<br />
+<br />
+<h2 class="text-center">TED Talk</h2>
+<p>Here's a great talk about nothing and confidence.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div style="max-width:854px">
+                        <div style="max-width:854px">
+                            <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="560" height="315" src="https://www.youtube.com/embed/8S0FDjFBj8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
